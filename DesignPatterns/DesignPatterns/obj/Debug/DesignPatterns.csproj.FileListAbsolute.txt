@@ -1,0 +1,16 @@
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe.config
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\System.ValueTuple.dll
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\System.ValueTuple.xml
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.abstractions.dll
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.assert.dll
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.core.dll
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.execution.desktop.dll
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.abstractions.xml
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.assert.xml
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.core.xml
+C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.execution.desktop.xml
