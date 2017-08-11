@@ -127,17 +127,17 @@ namespace DesignPatterns.Factories.Abstract
     }
 
 
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            var machine = new HotDrinkMachine();
-            var drink = machine.MakeDrink();
-            drink.Consume();
-            //var drink = machine.MakeDrink(HotDrinkMachine.AvailbleDrink.Tea, 100);
-            //drink.Consume();
+    //public class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        var machine = new HotDrinkMachine();
+    //        var drink = machine.MakeDrink();
+    //        drink.Consume();
+    //        //var drink = machine.MakeDrink(HotDrinkMachine.AvailbleDrink.Tea, 100);
+    //        //drink.Consume();
 
-            ReadLine();
-        }
-    }
+    //        ReadLine();
+    //    }
+    //}
 }

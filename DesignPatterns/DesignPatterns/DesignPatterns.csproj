@@ -66,8 +66,14 @@
     <Compile Include="Builder\Tests.cs" />
     <Compile Include="Factories\Abstract\AbstractFactory.cs" />
     <Compile Include="Factories\Creational\CreationalFactory.cs" />
+    <Compile Include="Factories\Exercise.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\CopyConstructors\CopyConstructor.cs" />
+    <Compile Include="Prototype\CopyThrougSerialization\CopyThroughSerialization.cs" />
+    <Compile Include="Prototype\DeepCopyInterface\DeepCopyInterfaceConstructor.cs" />
+    <Compile Include="Prototype\Exercise.cs" />
+    <Compile Include="Prototype\ICloneable\IClonablePrototype.cs" />
     <Compile Include="Solid\1.OpenClosedPrinciple.cs" />
     <Compile Include="Solid\0.SingleResponsibility.cs" />
     <Compile Include="Solid\3.LiskovSubstitutionPrinciple.cs" />
@@ -87,6 +93,11 @@
     <Content Include="Builder\ExerciseAnswers.cs.txt" />
     <Content Include="Factories\Abstract\Creational.Factories.AbstractFactory.cs.txt" />
     <Content Include="Factories\Creational\Creational.Factories.Factory.cs.txt" />
+    <Content Include="Factories\ExerciseAnswers.cs.txt" />
+    <Content Include="Prototype\CopyConstructors\Creational.Prototype.CopyConstructors.cs.txt" />
+    <Content Include="Prototype\CopyThrougSerialization\Creational.Prototype.CopyThroughSerialization.cs.txt" />
+    <Content Include="Prototype\ExerciseAnswers.cs.txt" />
+    <Content Include="Prototype\ICloneable\Creational.Prototype.ICloneableIsBad.cs.txt" />
     <Content Include="Solid\SOLID.DIP.cs.txt" />
     <Content Include="Solid\SOLID.ISP.cs.txt" />
     <Content Include="Solid\SOLID.OCP.cs.txt" />
