@@ -14,7 +14,6 @@ C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.abstraction
 C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.assert.xml
 C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.core.xml
 C:\0-Projects\my\Udemy\DesignPatterns\DesignPatterns\bin\Debug\xunit.execution.desktop.xml
-C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
 C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
 C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
 C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe.config
@@ -30,3 +29,7 @@ C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\bin\Deb
 C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\xunit.assert.xml
 C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\xunit.core.xml
 C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\xunit.execution.desktop.xml
+C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\Autofac.dll
+C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\Autofac.xml
+C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
+C:\0-Projects\my\Udemy\UdemyDesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csproj.CoreCompileInputs.cache

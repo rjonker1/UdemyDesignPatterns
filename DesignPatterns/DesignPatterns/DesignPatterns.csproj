@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.6.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.6.1\lib\net45\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -74,11 +77,23 @@
     <Compile Include="Prototype\DeepCopyInterface\DeepCopyInterfaceConstructor.cs" />
     <Compile Include="Prototype\Exercise.cs" />
     <Compile Include="Prototype\ICloneable\IClonablePrototype.cs" />
+    <Compile Include="Singleton\Exercise.cs" />
+    <Compile Include="Singleton\Monostate\MonostateDemo.cs" />
+    <Compile Include="Singleton\SingletonDI\SingletonDI.cs" />
+    <Compile Include="Singleton\Singleton\Singleton.cs" />
     <Compile Include="Solid\1.OpenClosedPrinciple.cs" />
     <Compile Include="Solid\0.SingleResponsibility.cs" />
     <Compile Include="Solid\3.LiskovSubstitutionPrinciple.cs" />
     <Compile Include="Solid\4.InterfaceSegregationPrinciple.cs" />
     <Compile Include="Solid\5.DependencyInversionPrinciple.cs" />
+    <Compile Include="StructuralDP\Adapter\AdapterDemoCaching.cs" />
+    <Compile Include="StructuralDP\Adapter\AdapterDemo.cs" />
+    <Compile Include="StructuralDP\Adapter\Exercise.cs" />
+    <Compile Include="StructuralDP\Bridge\BridgeDemo.cs" />
+    <Compile Include="StructuralDP\Bridge\Exercise.cs" />
+    <Compile Include="StructuralDP\Composite\Demo\CompositeDemo.cs" />
+    <Compile Include="StructuralDP\Composite\Demo\GeometricShapes.cs" />
+    <Compile Include="StructuralDP\Composite\Demo\NeuralNetworks.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -98,10 +113,21 @@
     <Content Include="Prototype\CopyThrougSerialization\Creational.Prototype.CopyThroughSerialization.cs.txt" />
     <Content Include="Prototype\ExerciseAnswers.cs.txt" />
     <Content Include="Prototype\ICloneable\Creational.Prototype.ICloneableIsBad.cs.txt" />
+    <Content Include="Singleton\ExerciseAnswers.cs.txt" />
+    <Content Include="Singleton\Monostate\Creational.Singleton.Monostate.cs.txt" />
+    <Content Include="Singleton\SingletonDI\Creational.Singleton.SingletonInDI.cs.txt" />
+    <Content Include="Singleton\Singleton\Creational.Singleton.Singleton.cs.txt" />
     <Content Include="Solid\SOLID.DIP.cs.txt" />
     <Content Include="Solid\SOLID.ISP.cs.txt" />
     <Content Include="Solid\SOLID.OCP.cs.txt" />
     <Content Include="Solid\SOLID.SRP.cs.txt" />
+    <Content Include="StructuralDP\Adapter\ExerciseAnswers.cs.txt" />
+    <Content Include="StructuralDP\Adapter\Structural.Adapter.NoCaching.cs.txt" />
+    <Content Include="StructuralDP\Adapter\Structural.Adapter.WithCaching.cs.txt" />
+    <Content Include="StructuralDP\Bridge\ExerciseAnswers.cs.txt" />
+    <Content Include="StructuralDP\Bridge\Structural.Bridge.Bridge.cs.txt" />
+    <Content Include="StructuralDP\Composite\Demo\Structural.Composite.GeometricShapes.cs.txt" />
+    <Content Include="StructuralDP\Composite\Demo\Structural.Composite.NeuralNetworks.cs.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

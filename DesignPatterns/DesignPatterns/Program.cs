@@ -6,7 +6,13 @@ using static System.Console;
 namespace DesignPatterns
 {
 
-  
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+            
+    //    }
+    //}
 
     //class Program
     //{

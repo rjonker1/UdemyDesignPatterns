@@ -12,6 +12,12 @@ namespace DesignPatterns.Prototype.CopyThrougSerialization
 {
     public static class ExtenstionMethods
     {
+        /// <summary>
+        /// serialization works for prototyping because it is able to travserse
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="self"></param>
+        /// <returns></returns>
         public static T DeepCopy<T>(this T self)
         {
             var stream = new MemoryStream();
@@ -94,20 +100,20 @@ namespace DesignPatterns.Prototype.CopyThrougSerialization
         }
     }
 
-    public class CopyThroughSerializationDemo
-    {
-        public static void Main(string[] args)
-        {
-            var john = new Person(new[] { "John", "Apple" }, new Address("Meadowbrooke Lane", 34));
-            WriteLine(john);
+    //public class CopyThroughSerializationDemo
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        var john = new Person(new[] { "John", "Apple" }, new Address("Meadowbrooke Lane", 34));
+    //        WriteLine(john);
 
-            //var jane = new Person(john);
-            var jane = john.DeepCopyXml();
-            jane.Names[0] = "jane";
-            jane.Address.HouseNumber = 88;
-            Write(jane);
+    //        //var jane = new Person(john);
+    //        var jane = john.DeepCopyXml();
+    //        jane.Names[0] = "jane";
+    //        jane.Address.HouseNumber = 88;
+    //        Write(jane);
 
-            ReadLine();
-        }
-    }
+    //        ReadLine();
+    //    }
+    //}
 }
