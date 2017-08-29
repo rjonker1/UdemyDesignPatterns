@@ -94,6 +94,11 @@
     <Compile Include="StructuralDP\Composite\Demo\CompositeDemo.cs" />
     <Compile Include="StructuralDP\Composite\Demo\GeometricShapes.cs" />
     <Compile Include="StructuralDP\Composite\Demo\NeuralNetworks.cs" />
+    <Compile Include="StructuralDP\Composite\Exercise.cs" />
+    <Compile Include="StructuralDP\Decorator\Demo\AdapteDecorator.cs" />
+    <Compile Include="StructuralDP\Decorator\Demo\CodeBuilder.cs" />
+    <Compile Include="StructuralDP\Decorator\Demo\DecoratorDemo.cs" />
+    <Compile Include="StructuralDP\Decorator\Demo\MultipleInhertiance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -128,6 +133,11 @@
     <Content Include="StructuralDP\Bridge\Structural.Bridge.Bridge.cs.txt" />
     <Content Include="StructuralDP\Composite\Demo\Structural.Composite.GeometricShapes.cs.txt" />
     <Content Include="StructuralDP\Composite\Demo\Structural.Composite.NeuralNetworks.cs.txt" />
+    <Content Include="StructuralDP\Composite\ExerciseAnswers.cs.txt" />
+    <Content Include="StructuralDP\Decorator\Demo\Structural.Decorator.AdapterDecorator.cs.txt" />
+    <Content Include="StructuralDP\Decorator\Demo\Structural.Decorator.CodeBuilder.cs.txt" />
+    <Content Include="StructuralDP\Decorator\Demo\Structural.Decorator.Decorator.cs.txt" />
+    <Content Include="StructuralDP\Decorator\Demo\Structural.Decorator.MultipleInheritance.cs.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
